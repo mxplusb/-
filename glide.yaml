@@ -1,0 +1,8 @@
+package: github.com/mxplusb/arm-validator
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+  version: ^1.17.0
+- package: gopkg.in/go-playground/webhooks.v3
+  version: ^3.3.0
+  subpackages:
+  - github

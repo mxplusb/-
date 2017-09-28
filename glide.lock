@@ -1,0 +1,12 @@
+hash: 7f3e32eeb4b22031f80efb6ad3fc48c8307f030ae2732351e503b6d24f21ed4d
+updated: 2017-09-27T16:43:33.0524514-06:00
+imports:
+- name: github.com/cloudfoundry-community/go-cfenv
+  version: f920e9562d5f951cbf11785728f67258c38a10d0
+- name: github.com/mitchellh/mapstructure
+  version: d0303fe809921458f417bcf828397a65db30a7e4
+- name: gopkg.in/go-playground/webhooks.v3
+  version: cd89a10b6412a823fe9d24f12dd7275d036f4f80
+  subpackages:
+  - github
+testImports: []

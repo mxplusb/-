@@ -1,0 +1,9 @@
+---
+applications:
+- name: arm-validator
+  memory: 384M
+  instances: 2
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  health-check-type: process
+  env:
+    GOPACKAGENAME: "arm"

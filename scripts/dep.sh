@@ -17,7 +17,7 @@ echo "installing openssl"
 git clone git://git.openssl.org/openssl.git $VENDOR_DIR/$OPENSSL_SOURCE -b $OPENSSL_BRANCH
 
 pushd $VENDOR_DIR/$OPENSSL_SOURCE
-./config -Wl,-rpath=$VENDOR_LIB -O3
+./config -Wl,-rpath=$PWD/$VENDOR_LIB -O3
 make
 make test
 make install
